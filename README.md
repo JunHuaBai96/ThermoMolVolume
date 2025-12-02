@@ -3,6 +3,8 @@
 一个基于 **0 K 体积 + 线膨胀系数** 的轻量级网页工具，用来估算任意温度下的摩尔体积 \(V_m(T)\)，并可选给出 **α\_L 不确定性区间** 和 **Debye–Grüneisen 修正**。  
 只需浏览器即可运行，无需安装额外软件。
 
+<img width="1251" height="834" alt="image" src="https://github.com/user-attachments/assets/20880c79-8bc2-4763-b341-24e4b73bf5f0" />
+
 ---
 
 ### 功能特性 Features
@@ -57,10 +59,10 @@ $$
 
 3. **设置 0 K 体积**  
    - 直接在 “0 K 摩尔体积 V₀ (cm³/mol)” 输入框中填入，或  
-   - 展开“高级：从晶胞体积 Vcell 计算 V0”，输入：
+   - 展开“高级：从晶胞体积 Vcell 计算 V₀”，输入：
      - 晶胞体积$V_{\text{cell}}$ (Å³)
      - 晶胞中原子数 $N_{\text{cell}}$  
-     - 点击“由 Vcell 计算 V0”。
+     - 点击“由 Vcell 计算 V₀”。
 
 4. **设置热膨胀及温度**  
    - 填写线膨胀系数 $\alpha_L$（×10⁻⁶ K⁻¹）；  
@@ -111,6 +113,7 @@ $$
 
 - 欢迎提交 PR 或 Issue，补充更多材料、相结构或改进界面/模型。  
 - 许可证（License）：[MIT License](./LICENSE)。
+
 
 
 
