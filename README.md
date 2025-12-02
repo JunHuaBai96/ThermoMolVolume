@@ -1,6 +1,6 @@
 ## ThermoMolVolume · 摩尔体积温度外推计算器
 
-一个基于 **0 K 体积 + 线膨胀系数** 的轻量级网页工具，用来估算任意温度下的摩尔体积 \(V_m(T)\)，并可选给出 **α\_L 不确定性区间** 和 **Debye–Grüneisen 修正**。  
+一个基于 **0 K 体积 + 线膨胀系数** 的轻量级网页工具，用来估算任意温度下的摩尔体积 $V_m(T)$，并可选给出 **$\alpha_L$ 不确定性区间** 和 **Debye–Grüneisen 修正**。  
 只需浏览器即可运行，无需安装额外软件。
 
 <img width="1251" height="834" alt="image" src="https://github.com/user-attachments/assets/20880c79-8bc2-4763-b341-24e4b73bf5f0" />
@@ -113,6 +113,7 @@ $$
 
 - 欢迎提交 PR 或 Issue，补充更多材料、相结构或改进界面/模型。  
 - 许可证（License）：[MIT License](./LICENSE)。
+
 
 
 
