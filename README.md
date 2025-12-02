@@ -20,7 +20,7 @@
 
 - **常数热膨胀系数外推 \(V_m(T)\)**  
   - 使用：
-    $$
+$$
 V_m(T) \approx V_0 \bigl[ 1 + \alpha_V (T-0) \bigr],\quad \alpha_V \approx 3\alpha_L
 $$
   - 输出方法 A：**常数热膨胀系数外推** 的摩尔体积
@@ -113,6 +113,7 @@ $$
 
 - 欢迎提交 PR 或 Issue，补充更多材料、相结构或改进界面/模型。  
 - 许可证（License）：[MIT License](./LICENSE)。
+
 
 
 
