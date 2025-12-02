@@ -18,7 +18,7 @@
   - 输入晶胞体积$V_{\text{cell}}$ (Å³) 和晶胞原子数 $N_{\text{cell}}$，用公式自动换算：
   $$V_0 = \frac{V_{\text{cell}} \times N_A}{N_{\text{cell}}}\times 10^{-24} \ \text{cm}^3/\text{mol}$$
 
-- **常数热膨胀系数外推 \(V_m(T)\)**  
+- **常数热膨胀系数外推 $V_m(T)$**  
   - 使用：
 $$
 V_m(T) \approx V_0 \bigl[ 1 + \alpha_V (T-0) \bigr],\quad \alpha_V \approx 3\alpha_L
@@ -113,6 +113,7 @@ $$
 
 - 欢迎提交 PR 或 Issue，补充更多材料、相结构或改进界面/模型。  
 - 许可证（License）：[MIT License](./LICENSE)。
+
 
 
 
