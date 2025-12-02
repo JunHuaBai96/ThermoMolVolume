@@ -11,10 +11,10 @@
 
 - **内建材料数据库**  
   - Mg (hcp/fcc)、Al (fcc)、Cu (fcc)、Ni (fcc)、Zn (hcp/fcc) 等的近似热力学参数  
-  - 一键选择材料自动填入 \(V_0\)、α\_L、θ\_D、γ、B 等
+  - 一键选择材料自动填入 $V_0$、 $\alpha_L$ 、$\theta_D$、γ、B 等
 
 - **0 K 摩尔体积计算**  
-  - 直接输入 0 K 摩尔体积 \(V_0\)（cm³/mol），或  
+  - 直接输入 0 K 摩尔体积 $V_0$（cm³/mol），或  
   - 输入晶胞体积$V_{\text{cell}}$ (Å³) 和晶胞原子数 $N_{\text{cell}}$，用公式自动换算：
   $$V_0 = \frac{V_{\text{cell}} \times N_A}{N_{\text{cell}}}\times 10^{-24} \ \text{cm}^3/\text{mol}$$
 
@@ -113,6 +113,7 @@ $$
 
 - 欢迎提交 PR 或 Issue，补充更多材料、相结构或改进界面/模型。  
 - 许可证（License）：[MIT License](./LICENSE)。
+
 
 
 
